@@ -1,0 +1,41 @@
+
+
+<!-- PROGRAMMES EXECUTES AVEC CHROME ET SUR LE PORT 8181 : http://localhost:8181/RDI -->
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<link rel="stylesheet" href="Stylesheet.css" />
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+<title>RDI</title>
+</head>
+<body>
+
+<img src="Pictures/Isep-Logo.jpg">
+<br><br><br><br>
+<h1 class="title">Scientific Publication Manager</h1>
+<form name="myForm" action="Controller" method="post">
+
+    <fieldset><legend>Sign In</legend>
+    	<br><label>Pseudo :</label>
+    	<input type="text" class="champ" placeholder="Pseudo" name="pseudo"><br>
+    	<br><label>Password :</label>
+    	<input type="password" class="champ" placeholder="Password" name="password"><br>
+    </fieldset>
+
+    <br><br>
+    <input type="submit" class="connexion submit" value="Sign In">
+    <br><br><br>
+    <a href="ForgottenPassword.html" class="connexion">Forgot your password ?</a>
+    <br><br><br><br><br>
+    <a href="SignUp.html" id="signup">First visit ? Sign up here !</a>
+    <a href="Index.html" id="visitor">Visitor ? Just skip here</a>
+
+</form>
+
+</body>
+</html>
