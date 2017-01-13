@@ -15,11 +15,6 @@ label {
 	text-align:right;
 }
 
-h2{
-	text-align:center;
-	margin-top: 10%;
-}
-
 input {
 	border-style: solid;
 	border-width: 1px;
@@ -35,8 +30,6 @@ fieldset{
 	border-width: 1px;
 	border-color: black;
 	border-radius: 5px;
-	margin-left:30%;
-	margin-right:30%;
 	background-color: none;
 }
 
@@ -49,9 +42,29 @@ body{
 	background-color: #B0C4DE;
 }
 
+th{
+	font-size: 16px;
+}
+
+th img{
+	height: 10px;
+	width: 10px;
+}
+
 .title{
 	text-align: center;
 	margin-top: 10%;
+}
+
+.input_submission{
+	text-align: left;
+	width: 30%;
+	margin-left: 5%;
+}
+
+.champ_submission{
+	font-size: 20px;
+	font-family: Arial Black;
 }
 
 .champ{
@@ -64,6 +77,43 @@ body{
 
 .submit{
 	background-color: #FF6347;
+}
+
+
+.signin{
+	margin-left:30%;
+	margin-right:30%;	
+}
+
+.publication_fieldset{
+	margin-left:5%;
+	margin-right:5%;
+}
+
+.publication_legend{
+	margin-left:3%;
+}
+
+.publication_div{
+	margin-left:10%;
+	margin-right:10%;
+	text-align:justify;
+}
+
+.download{
+	float: right;
+	margin-right: 5%;
+	margin-bottom: 2%;
+}
+
+.ajout_submission{
+	float: right;
+	margin-right: 10%;
+	font-size: 16px;
+}
+
+.title{
+	margin-top: 10%;
 }
 
 #signup{
